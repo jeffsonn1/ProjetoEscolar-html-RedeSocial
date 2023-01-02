@@ -1,0 +1,303 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(270deg, #FFBC7E 0%, #FC8787 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header {
+    font-family: fantasy;
+    display: flex;
+    justify-content: space-between;
+    background: #EBEBEB;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 7px 7px;
+    padding: 5px 10px;
+    font-size: 30px;
+    width: 98.96%;
+    position:static;
+}
+header img {
+    width: 300px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul {
+    list-style-type: none;
+    margin-right: 50px;
+}
+header ul li {
+    margin: 30px;
+    display: inline;
+}
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+header ul li a:hover {
+    color: #FFA869;
+}
+header button {
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: fantasy;
+    background: transparent;
+}
+header button:hover {
+    color: #FFA869;
+}
+footer {
+    font-family: fantasy;
+    background: #EBEBEB;
+    box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 7px 0px 0px;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 15%;
+}
+
+.conteudo {
+    background: #FFFFFF;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    margin: 60px;
+    padding: 60px;
+}
+.cabecalho {
+    display: flex;
+    justify-content: space-between
+}
+.perfil {
+    display: flex;
+}
+.foto img{
+    border-radius: 460px;
+    width: 150px;
+}
+.bio {
+    margin-right: 60px;
+    margin-left: 25px;
+}
+.bio h1{
+    font-weight: 700;
+    font-size: 36px;
+}
+.bio h3 {
+    margin-left: 30px;
+    margin-top: 25px;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.linha {
+    
+    background-color: #EBEBEB;
+    border-left: thick solid #EBEBEB;
+    border-right: thick solid #EBEBEB;
+    border-radius: 20px;
+}
+.local{
+    margin-top: -25px;
+}
+.local h3 {
+    margin-left: 60px;
+    margin-top: 27px;
+    font-weight: normal;
+    font-size: 24px;
+}
+.chat img {
+    padding: 8px 16px;
+    max-width: 100px;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+.redes {
+    margin-top: 30px;
+    background: #FFF9DA;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    padding: 8px 40px;
+    width: 60%;
+    display: inline-block;
+}
+.redes h1 {
+    color: #FFA869;
+    margin-top: 15px;
+    margin-left: 25px;
+    font-size: 50px;
+}
+.redes ul {
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.redes ul li {
+    display: inline-block;
+    margin: 30px;
+    padding-right: 0;
+}
+.redes ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    padding-inline: 80px;
+    text-align: center;
+}
+.zap {
+    background: #C7FDAE;
+    border-radius: 9px;
+}
+.insta {
+    background: #FB89C6;
+    border-radius: 9px;
+}
+.tel {
+    background: #93F2FF;
+    border-radius: 9px;
+}
+.roblox {
+    background: #FB9292;
+    border-radius: 9px;
+}
+.face {
+    background: #69bec9;
+    border-radius: 9px;
+}
+.tik {
+    background: #EE1D52;
+    border-radius: 9px;
+}
+.botao1 {
+    margin-top: 40px;
+    margin-left: 330px;
+    margin-bottom: 30px;
+}
+.redes button {
+    background-color: #FFA869;
+    border-radius: 9px;
+    border: none;
+    font-size: 80px;
+    padding-inline: 100px;
+    cursor: pointer;
+}
+.redes button:hover{
+    background-color: #FFBF90;
+}
+
+
+.games {
+    background: #FFF9DA;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    margin-top: 30px;
+    padding: 8px 40px;
+    width: 27%;
+    float: right;
+}
+.games h1 {
+    color: #FFA869;
+    margin-top: 15px;
+    margin-left: 25px;
+    font-size: 50px;
+}
+.jogol {
+    margin-left: 8%;
+}
+.jogoj{
+    margin-left: 26%;
+}
+.games ul {
+    list-style-type: none;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.games ul li {
+    display: inline-block;
+    margin:5px;
+    padding-right: -4px;
+}
+.games ul li img{
+    border-radius: 52px;
+    width: 150px;
+}
+.botao2 {
+    margin-top: 40px;
+    margin-left: 103px;
+    margin-bottom: 30px;
+}
+.games button {
+    background-color: #FFA869;
+    border-radius: 9px;
+    border: none;
+    font-size: 80px;
+    padding-inline: 100px;
+    cursor: pointer;
+}
+.games button:hover {
+    background-color: #FFBF90;
+}
+
+
+.dark {
+    background: linear-gradient(89.87deg, #9c3333 0.14%, #FC8787 99.92%);
+}
+.dark header{
+    color: white;
+    background: #333030;
+}   
+.dark footer{
+    color: white;
+    background: #333030;
+}
+.dark header ul li a {
+    color:white;
+}
+.dark header ul li a:hover {
+    color: #FC8787;
+}
+.dark header button {
+    background:transparent;
+    color: white;
+}
+.dark header button:hover{
+    color: #FC8787;
+}
+.dark .conteudo {
+    background: #333439;
+    color: #F6F6F6;
+}
+.dark .redes {
+    background: rgb(255, 220, 187);
+}
+.dark .redes h1 {
+    color: #FC8787;
+}
+.dark .redes button{
+    background: #FC8787;
+}
+.dark .redes button:hover{
+    background: #f8b9b9;
+}
+.dark .games {
+    background: rgb(255, 220, 187);
+}
+.dark .games h1 {
+    color: #FC8787;
+}
+.dark .games button{
+    background: #FC8787;
+}
+.dark .games button:hover{
+    background: #f8b9b9;
+}
